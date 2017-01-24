@@ -4,10 +4,10 @@
   "description": "",
   "main": "webpack.dev.js",
   "dependencies": {
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.2",
+    "webpack-spritesmith": "^0.3.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikeqcp/webpack-exercise-apptension.git"
