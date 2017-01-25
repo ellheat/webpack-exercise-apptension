@@ -1,7 +1,8 @@
 'use strict';
-var webpack = require("webpack");
+var webpack = require('webpack');
 var path = require('path');
 var SpritesmithPlugin = require('webpack-spritesmith');
+
 
 module.exports = {
     entry: {
@@ -31,7 +32,7 @@ module.exports = {
     plugins: [
         new SpritesmithPlugin({
             src: {
-                cwd: path.resolve(__dirname, 'src/ico'),
+                cwd: path.resolve(__dirname, 'images/sprites'),
                 glob: '*.png'
             },
             target: {
